@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/fondoretro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'RETROTECH';
+  src: url(../font/RETROTECH.ttf);
+}
+
+h1 {
+  font-size: 52px;
+  color: white;
+  font-family: 'RETROTECH', Helvetica, sans-serif;
+}
+
+.main-table {
+  border: 5px groove rgb(237, 175, 5);
+  border-radius: 10px;
+  background-color: rgb(62, 59, 59);
+  width: 800px;
+  height: 500px;
+}
+
+.primerafila {
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+#span-white {
+  color: white;
+}
